@@ -14,8 +14,8 @@ public class HashmapProcessor {
 	
 	public String check (String ID, String tripID) {
 		if (hm.get(tripID) == null)
-			return "Trip ID [" + tripID + "] not found for Traveler ID [" + ID + "]";
+			return "SUCCESS: Trip ID [" + tripID + "] not found for Traveler ID [" + ID + "]";
 		else
-			return "Trip ID [" + tripID + "] found for Traveler ID [" + ID + "]";
+			return "FAILED: Trip ID [" + tripID + "] found for Traveler ID [" + ID + "]";
 	}
 }
