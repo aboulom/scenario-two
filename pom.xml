@@ -32,6 +32,5 @@
   </build>
   <modules>
     <module>bundle</module>
-    <module>features</module>
   </modules>
 </project>
